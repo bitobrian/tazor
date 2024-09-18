@@ -1,0 +1,11 @@
+<div>
+  <button @click="incrementCount">Clicked {{ count }} times</button>
+</div>
+
+@code {
+  let count = 0;
+
+  function incrementCount() {
+    count++;
+  }
+}
