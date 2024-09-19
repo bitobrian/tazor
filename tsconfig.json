@@ -8,6 +8,6 @@
       "skipLibCheck": true,
       "forceConsistentCasingInFileNames": true
     },
-    "include": ["src/**/*.ts"]
+    "include": ["src/**/*.ts", "vite-plugin-tazor.ts", "tazor-compiler.ts"]
   }
   
